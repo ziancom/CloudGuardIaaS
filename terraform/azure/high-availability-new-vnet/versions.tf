@@ -9,4 +9,10 @@ terraform {
       version = "~> 2.2.1"
     }
   }
+  backend "azurerm" {
+		resource_group_name   = "terraform-storage-rg"
+		storage_account_name  = "terraformstatepreecha"
+		container_name        = "tfstatefile-new"
+		key                   = "terraform.tfstate"
+	  }  
 }

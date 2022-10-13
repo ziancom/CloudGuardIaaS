@@ -1,7 +1,10 @@
 //#PLEASE refer to the README.md for accepted values FOR THE VARIABLES BELOW
-    client_secret                   = "cb1b8fe8-a29d-43ab-9be9-b735855edb8f"                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    tenant_id                       = "01605c2e-84df-4dfc-af6c-4f706350e670"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ #   client_secret                   = "cb1b8fe8-a29d-43ab-9be9-b735855edb8f"                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ #   client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ #   tenant_id                       = "01605c2e-84df-4dfc-af6c-4f706350e670"          
+    client_secret                   = ""                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    client_id                       = ""                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    tenant_id                       = ""                                  # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     subscription_id                 = "7bda8507-658e-4af0-8d7f-119e17e0e46a"
     source_image_vhd_uri            = "noCustomUri"
     resource_group_name             = "checkpoint-ha-terraform"
@@ -10,7 +13,7 @@
     vnet_name                       = "checkpoint-ha-vnet"
     address_space                   = "172.16.0.0/16"
     subnet_prefixes                 = ["172.16.1.0/24","172.16.2.0/24"]
-    admin_password                  = "P@ssw0rd"
+    admin_password                  = "Checkpoint123"
     sic_key                         = "123456789102022"
     vm_size                         = "Standard_D3_v2"
     disk_size                       = "110"
