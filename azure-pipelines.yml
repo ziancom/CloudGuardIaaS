@@ -35,5 +35,5 @@ stages:
     - task: PublishBuildArtifacts@1
       inputs:
         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        ArtifactName: 'terraform-manifests'
+        ArtifactName: 'CG-Mgmt-manifests'
         publishLocation: 'Container'  
