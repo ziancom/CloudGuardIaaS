@@ -23,6 +23,7 @@ stages:
     # Task-2: Copy files (Copy files from a source folder to target folder)
     # Source Directory: $(System.DefaultWorkingDirectory)/terraform-manifests
     # Target Directory: $(Build.ArtifactStagingDirectory)
+
     - task: CopyFiles@2
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)/terraform/azure'
@@ -37,3 +38,8 @@ stages:
         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
         ArtifactName: 'terraform-manifests'
         publishLocation: 'Container'  
+
+    - script: curl -L 'https://get.spectralops.io/latest/x/sh?dsn=https://spu-1f17af2b362b4cc5964b65c27962a4e8@get.spectralops.io' | sh
+      displayName: 'Install Spectral'
+    - script: $HOME/.spectral/spectral scan --ok --dsn https://spu-1f17af2b362b4cc5964b65c27962a4e8@get.spectralops.io --include-tags base,audit3,iac
+      displayName: 'Spectral Scan'
