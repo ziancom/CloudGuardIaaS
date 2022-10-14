@@ -1,5 +1,9 @@
 //PLEASE refer to README.md for accepted values FOR THE VARIABLES BELOW
-
+/*
+region     = "us-east-1"
+access_key = "my-access-key"
+secret_key = "my-secret-key"
+*/
 // --- VPC Network Configuration ---
 vpc_cidr = "10.0.0.0/16"
 public_subnets_map = {
