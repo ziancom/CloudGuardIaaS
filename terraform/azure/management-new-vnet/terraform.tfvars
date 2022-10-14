@@ -9,7 +9,7 @@
     location                        = "eastus"
     vnet_name                       = "checkpoint-mgmt-vnet"
     address_space                   = "172.16.0.0/16"
-    subnet_prefix                   = "172.16.1/24"
+    subnet_prefix                   = "172.16.1.0/24"
     management_GUI_client_network   = "0.0.0.0/0"
     mgmt_enable_api                 = "disable"
     admin_password                  = "Checkpoint123"
