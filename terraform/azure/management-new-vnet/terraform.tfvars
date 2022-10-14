@@ -1,5 +1,5 @@
 #PLEASE refer to the README.md for accepted values FOR THE VARIABLES BELOW
-    client_secret                   = "cUa8Q~yotL3f5P16rVJpUtCLNGK.x72WdFXcYcqF"
+    client_secret                   = "cb1b8fe8-a29d-43ab-9be9-b735855edb8f"
     client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"
     tenant_id                       = "01605c2e-84df-4dfc-af6c-4f706350e670"
     subscription_id                 = "7bda8507-658e-4af0-8d7f-119e17e0e46a"
@@ -12,13 +12,13 @@
     subnet_prefix                   = "172.16.1/24"
     management_GUI_client_network   = "0.0.0.0/0"
     mgmt_enable_api                 = "disable"
-    admin_password                  = "P@ssw0rd"
+    admin_password                  = "Checkpoint123"
     vm_size                         = "Standard_D3_v2"
     disk_size                       = "110"
     vm_os_sku                       = "mgmt-byol"
     vm_os_offer                     = "check-point-cg-r8110"
     os_version                      = "R81.10"
     bootstrap_script                = "touch /home/admin/bootstrap.txt; echo 'hello_world' > /home/admin/bootstrap.txt"
-    allow_upload_download           = true
+    allow_upload_download           = false
     authentication_type             = "Password"
     admin_shell                     = "/etc/cli.sh"   # "/etc/cli.sh"
