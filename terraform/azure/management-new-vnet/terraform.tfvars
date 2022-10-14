@@ -1,5 +1,5 @@
 #PLEASE refer to the README.md for accepted values FOR THE VARIABLES BELOW
-    client_secret                   = "cb1b8fe8-a29d-43ab-9be9-b735855edb8f"
+    client_secret                   = "cUa8Q~yotL3f5P16rVJpUtCLNGK.x72WdFXcYcqF"
     client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"
     tenant_id                       = "01605c2e-84df-4dfc-af6c-4f706350e670"
     subscription_id                 = "7bda8507-658e-4af0-8d7f-119e17e0e46a"
