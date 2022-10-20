@@ -1,5 +1,5 @@
 //#PLEASE refer to the README.md for accepted values FOR THE VARIABLES BELOW
-    client_secret                   = "cUa8Q~yotL3f5P16rVJpUtCLNGK.x72WdFXcYcqF"                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    client_secret                   = ""                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     tenant_id                       = "01605c2e-84df-4dfc-af6c-4f706350e670"          
  #   client_secret                   = ""                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
