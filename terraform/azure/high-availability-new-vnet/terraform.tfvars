@@ -1,3 +1,4 @@
+
 //#PLEASE refer to the README.md for accepted values FOR THE VARIABLES BELOW
     client_secret                   = ""                                     # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"                                         # "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -11,8 +12,8 @@
     cluster_name                    = "checkpoint-ha-terraform"
     location                        = "eastus"
     vnet_name                       = "checkpoint-ha-vnet"
-    address_space                   = "172.16.0.0/16"
-    subnet_prefixes                 = ["172.16.1.0/24","172.16.2.0/24"]
+    address_space                   = "172.16.0.0/23"
+    subnet_prefixes                 = ["172.16.0.0/25","172.16.0.128/25"]
     admin_password                  = "Checkpoint123"
     sic_key                         = "123456789102022"
     vm_size                         = "Standard_D3_v2"
