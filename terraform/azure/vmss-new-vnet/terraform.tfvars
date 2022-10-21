@@ -1,5 +1,5 @@
 //#PLEASE refer to the README.md for accepted values FOR THE VARIABLES BELOW
-    client_secret                   = ""
+    client_secret                   = "cUa8Q~yotL3f5P16rVJpUtCLNGK.x72WdFXcYcqF"
     client_id                       = "c7944368-d7bf-4985-a181-fdf6b49f4018"
     tenant_id                       = "01605c2e-84df-4dfc-af6c-4f706350e670"
     subscription_id                 = "7bda8507-658e-4af0-8d7f-119e17e0e46a"
@@ -8,8 +8,8 @@
     location                        = "eastus"
     vmss_name                       = "checkpoint-vmss-terraform"
     vnet_name                       = "checkpoint-vmss-vnet"
-    address_space                   = "10.0.0.0/16"
-    subnet_prefixes                 = ["10.0.1.0/24","10.0.2.0/24"]
+    address_space                   = "192.168.2.0/24"
+    subnet_prefixes                 = ["192.168.2.0/25","192.168.2.128/25"]
     backend_lb_IP_address           = 4
     admin_password                  = "Checkpoint123"
     sic_key                         = "Checkpoint123"
